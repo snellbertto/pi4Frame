@@ -1,0 +1,2 @@
+Install piOS Lite x64.
+sudo apt install --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox unclutter xdotool chromium-browser -y
