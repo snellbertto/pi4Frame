@@ -5,3 +5,10 @@ Install piOS Lite x64.<br>
 Install apps<br>
   sudo apt install --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox unclutter xdotool chromium-browser -y<br>
 Place kiosk.sh file in home directory of piOS.<br>
+Make autostart with next 2 commands.<br>
+mkdir -p ~/.config/openbox<br>
+nano ~/.config/openbox/autostart<br>
+Place next line in the autostart file.<br>
+/home/pi/kiosk.sh<br>
+Place .bash_profile in ~/.bash_profile<br>
+reboot
