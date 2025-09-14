@@ -2,6 +2,7 @@
 My picture frame running from a raspberry pi 4
 
 Install piOS Lite x64.<br>
+Update and upgrade - sudo apt update && sudo apt full-upgrade<br>
 Use sudo raspi-config to set up default settings for pi.<br>
 Install apps with the next command.<br>
 sudo apt install --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox unclutter xdotool chromium-browser -y<br>
