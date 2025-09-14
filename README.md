@@ -12,4 +12,6 @@ nano ~/.config/openbox/autostart<br>
 Place next line in the autostart file.<br>
 /home/pi/kiosk.sh<br>
 Place .bash_profile in ~/.bash_profile<br>
-reboot
+reboot<br>
+The code in .bash_profile enables the startx to be stopped. To do that use the next command.<br>
+pkill Xorg
