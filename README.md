@@ -2,8 +2,9 @@
 My picture frame running from a raspberry pi 4
 
 Install piOS Lite x64.<br>
-Install apps<br>
-  sudo apt install --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox unclutter xdotool chromium-browser -y<br>
+Use sudo raspi-config to set up default settings for pi.<br>
+Install apps with the next command.<br>
+sudo apt install --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox unclutter xdotool chromium-browser -y<br>
 Place kiosk.sh file in home directory of piOS.<br>
 Make autostart with next 2 commands.<br>
 mkdir -p ~/.config/openbox<br>
