@@ -8,6 +8,7 @@ My picture frame running from a raspberry pi 4
 <li>Install apps with the next command.
 <ul>sudo apt install --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox unclutter xdotool chromium-browser -y</ul></li>
 <li>Place kiosk.sh file in home directory of piOS.</li>
+<li>chmod +x /home/pi/kiosk.sh</li>
 <li>Make autostart with next 2 commands.
 <ul>mkdir -p ~/.config/openbox</ul>
 <ul>nano ~/.config/openbox/autostart</ul></li>
