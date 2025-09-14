@@ -16,8 +16,8 @@ unclutter -idle 0.5 -root &
 
 # Launch Chromium
 chromium-browser --noerrdialogs --disable-infobars --kiosk \
-"http://10.10.1.5:3000/?weather=north-berwick" \
-"http://10.10.1.5:1337/?token=snellbertt-3133d00b3527a5f8" &
+"http://your.website.com/?weather=new-york" \
+"http://your.website.com" &
 
 sleep 15
 while true; do
