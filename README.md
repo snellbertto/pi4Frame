@@ -20,7 +20,7 @@ My picture frame running from a raspberry pi 4
 <ul>pkill Xorg</ul></li>
 <li>Place shutdown_monitor.sh and wake_monitor.sh in home folder.</li>
 <li>After, chmod +x both files to make them executable.</li>
-<li>Run the crontabe -e command.</li>
+<li>Run the crontab -e command.</li>
 <li>Place the next lines in bottom of file
 <ul># Turn monitor off at 9:30 PM</ul>
 <ul>30 21 * * * /home/pi/shutdown_monitor.sh</ul>
