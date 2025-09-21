@@ -17,7 +17,7 @@ My picture frame running from a raspberry pi 4
 <li>Place .bash_profile in ~/.bash_profile</li>
 <li>reboot</li>
 <li>The code in .bash_profile enables the startx to be stopped. To do that use the next command.
-<ul>pkill Xorg</ul></li>
+<ul>pkill Xorg (or pkill chrome-browser)</ul></li>
 <li>Place shutdown_monitor.sh and wake_monitor.sh in home folder.</li>
 <li>After, chmod +x both files to make them executable.</li>
 <li>Run the crontab -e command.</li>
